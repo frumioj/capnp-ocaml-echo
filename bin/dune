@@ -1,0 +1,9 @@
+(include_subdirs unqualified)
+
+(executable
+ (name main)
+ (public_name echo)
+ (libraries lwt.unix capnp-rpc-lwt logs.fmt)
+ (flags (:standard -w -53-55)))
+
+
